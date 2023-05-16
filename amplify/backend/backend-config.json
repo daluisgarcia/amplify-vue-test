@@ -1,1 +1,22 @@
-{}
+{
+  "api": {
+    "todo": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDate": "2024-05-15T16:28:02.636Z",
+              "apiKeyExpirationDays": 365,
+              "description": "todo example project"
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  }
+}
