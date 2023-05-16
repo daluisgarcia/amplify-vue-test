@@ -8,8 +8,8 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
+      To see more information about the technologies used in this project, check out the
+      <a href="https://docs.amplify.aws/start/q/integration/vue/" target="_blank" rel="noopener">Amplify</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
     </h3>
   </div>
